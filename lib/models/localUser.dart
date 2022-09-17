@@ -38,9 +38,9 @@ class LocalUser {
       final map = user.snapshot.value as Map<dynamic, dynamic>;
       final firstName = map['firstName'] ?? 'Anonymous';
       final lastName = map['lastName'] ?? '';
-      final skill = map['skill'] ?? 0;
+      final school = map['school'] ?? 0;
 
-      setInfo(uid!, firstName, lastName, email, skill);
+      setInfo(uid!, firstName, lastName, email, school);
 
       print(firstName);
 
