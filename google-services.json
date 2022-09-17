@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "521962272987",
+    "project_id": "forum-everyday",
+    "storage_bucket": "forum-everyday.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:521962272987:android:8a4a4d14fbe44beb9434fe",
+        "android_client_info": {
+          "package_name": "com.example.untitled6"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "521962272987-ssbdo7ekso47snkhsndnfq8c44o8sg99.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1VN1uj237GqqLpKB_-w_aM9z02jALHYE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "521962272987-ssbdo7ekso47snkhsndnfq8c44o8sg99.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
