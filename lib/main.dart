@@ -1,6 +1,6 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:untitled6/register.dart';
+import 'register.dart';
 import 'firebase_options.dart';
 import 'login.dart';
 import 'home.dart';
@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: appTitle,
       theme: ThemeData(
-        scaffoldBackgroundColor: const Color(0xFFE0C61B),
+        scaffoldBackgroundColor: const Color(0xFF81E01B),
         textTheme: const TextTheme(
           bodyText1: TextStyle(),
           bodyText2: TextStyle(),

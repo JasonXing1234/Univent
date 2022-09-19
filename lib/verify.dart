@@ -3,7 +3,7 @@ import 'dart:async';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:untitled6/home.dart';
+import 'home.dart';
 
 class Verify extends  StatefulWidget {
   const Verify({Key? key}) : super(key: key);

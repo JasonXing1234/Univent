@@ -1,4 +1,6 @@
 
+import 'package:instagram_clone_flutter/home.dart';
+
 import 'marketPlace.dart';
 import 'routes.dart';
 import 'package:flutter/material.dart';
@@ -19,16 +21,7 @@ class _NavBarState extends State<NavBar> {
   void _onItemTapped(int index) {
     switch (index) {
       case 0:
-        Navigator.pushNamed(context, Routes.marketplace);
-        break;
-      case 1:
-        Navigator.pushNamed(context, Routes.marketplace);
-        break;
-      case 2:
-        Navigator.pushNamed(context, Routes.home);
-        break;
-      case 3:
-        Navigator.pushNamed(context, Routes.home);
+        Navigator.of(context).pushReplacement(MaterialPageRoute(builder: (context) => HomePage()));
         break;
 
     }
@@ -45,10 +38,6 @@ class _NavBarState extends State<NavBar> {
         BottomNavigationBarItem(
           icon: Icon(Icons.games),
           label: 'Marketplace',
-        ),
-        BottomNavigationBarItem(
-          icon: Icon(Icons.question_answer_outlined),
-          label: 'Schedule',
         ),
         BottomNavigationBarItem(
           icon: Icon(Icons.person),

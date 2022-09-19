@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:modal_progress_hud_nsn/modal_progress_hud_nsn.dart';
-import 'package:untitled6/register.dart';
+import 'register.dart';
 import '../../models/localUser.dart';
 import 'home.dart';
 import '../../components/RoundedButton.dart';
